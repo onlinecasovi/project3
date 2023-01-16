@@ -1,0 +1,26 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$primary: #234d7b;
+$secondary: #3b3c3e;
+$success:#1e6111;
+$info:  #64c3d2;
+$warning: #f5e74a;
+$danger:  #820410;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+.card img {
+    height: 256px;
+    object-fit: cover;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
